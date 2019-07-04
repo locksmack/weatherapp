@@ -1,0 +1,48 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+header, main, footer{
+	padding: 10px 20px;
+}
+header{
+	background: #bbf0d5;
+	margin-top: 15px;
+  border-radius: 10px 10px 0 0;
+}
+footer{
+	background: #9bc7b0;
+  border-radius: 0 0 10px 10px;
+}
+main{
+  background: #eaeaea;
+  min-height: 300px;
+
+  .current-temp{
+    font-size: 4em;
+    width: 100%;
+  }
+  .loading{
+    margin: 30px auto;
+  }
+  form{
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  .conditions > div{
+    background: #a2e0c1;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+
+    span{
+      font-weight: bold;
+      display: block;
+      height: 50px;
+    }
+  }
+}
