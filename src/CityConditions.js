@@ -27,11 +27,11 @@ class CityConditions extends React.Component{
               <div className='row conditions'>
                 <div className='col-sm-3'>
                   <span>Minimum Temperature</span>
-                  {this.props.data.main.temp_max}&deg;C
+                  {this.props.data.main.temp_min}&deg;C
                 </div>
                 <div className='col-sm-3'>
                   <span>Maximum Temperature</span>
-                  {this.props.data.main.temp_min}&deg;C
+                  {this.props.data.main.temp_max}&deg;C
                 </div>
                 <div className='col-sm-3'>
                   <span>Humidity</span>
