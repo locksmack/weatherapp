@@ -3,15 +3,7 @@ import Header from './Header'
 import Weather from './Weather'
 import Footer from './Footer'
 
-class App extends React.Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    
-    }
-  }
-
-  render(){
+function App(){
     return(
       <div className='container'>
         <Header />
@@ -19,7 +11,6 @@ class App extends React.Component{
         <Footer />
       </div>
     )
-  }
 }
 
 export default App;

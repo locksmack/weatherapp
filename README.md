@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
+Compatible with Node v10.16.0. Use [NVM](https://github.com/nvm-sh/nvm) to run different node versions.
+
 In the terminal, navigate to the project folder and run
 
 `npm install`
@@ -25,7 +27,7 @@ Builds a production-ready version into the `build` folder. Production code requi
 
 
 ## TODO
-This project is not nearly as polished as hoped due to a planned trip to Vanuatu half way through the strict delivery window. Hopefully the assessors will appreciate the need to sit on a beach for a week! :) Several improvements should be done:
+This project is not nearly as polished as hoped due to a planned trip to Vanuatu half way through the strict delivery window. Hopefully the assessors will appreciate the need to lie on a beach for a week! :) Several improvements should be done:
 
 * Caching of API responses to avoid multiple calls when toggling between cities
 * Improved styling

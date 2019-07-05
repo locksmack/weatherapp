@@ -10,15 +10,14 @@ class CityConditions extends React.Component{
 
   render(){
     if(this.props.data != null){
-      console.log(this.props.data.main)
-      var icon = `http://openweathermap.org/img/wn/${this.props.data.weather[0].icon}@2x.png`
+      const icon = `http://openweathermap.org/img/wn/${this.props.data.weather[0].icon}@2x.png`
       return(
         <div>
           <div className='row'>
-            <div className='col-xs-6 col-sm-9'>
+            <div className='col-6 col-sm-9'>
               <span className='current-temp'>{this.props.data.main.temp.toFixed(1)}&deg;C</span>
             </div>
-            <div className='col-xs-6 col-sm-3'>
+            <div className='col-6 col-sm-3'>
               <img src={icon} alt={this.props.data.weather[0].main} />
             </div>
           </div>

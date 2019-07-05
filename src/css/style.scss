@@ -42,7 +42,9 @@ main{
     span{
       font-weight: bold;
       display: block;
-      height: 50px;
+      @media (min-width: 576px) {
+        height: 50px;
+      }
     }
   }
 }
